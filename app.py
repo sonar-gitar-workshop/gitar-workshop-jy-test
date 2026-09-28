@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
-
+##
 # Catalog prices are authoritative. Clients submit SKU and quantity only.
 CATALOG = {
     "WIDGET-A": 2500,
